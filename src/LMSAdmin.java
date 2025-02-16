@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LMSAdmin implements Subject{
-    private List<Observer> observers;
+    private final List<Observer> observers;
     private String subject;
 
   public LMSAdmin(){
